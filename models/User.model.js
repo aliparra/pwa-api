@@ -12,7 +12,7 @@ const userSchema = mongoose.Schema(
       type: String,
     },
     logout: {
-      type: String,
+      type: Date,
       default: null
     }
    

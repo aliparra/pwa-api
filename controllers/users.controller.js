@@ -34,7 +34,9 @@ module.exports.get = (req, res, next) => {
 
 module.exports.logout = (req, res, next) => {
   console.log(req.currentUser);
-  User.findOneAndUpdate(req.currentUser, { logout: new Date() }).then(
+  
+  User.findByIdAndUpdate(req.currentUser, { logout: new Date() }).then(
+    
     (user) => {
       if (!user) {
         next(createError(404));
