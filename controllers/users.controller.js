@@ -78,7 +78,7 @@ module.exports.authenticate = (req, res, next) => {
                   expiresIn: "1h",
                 }
               ),
-              logout_date: user.logout,
+              logout: user.logout,
             });
           }
         });
