@@ -24,6 +24,18 @@ Se puede descargar desde su página oficial: https://nodejs.org/es/
 
 ## ENDPOINTS
 
+<table>
+    <tr>
+        <td>/users</td>
+    </tr>
+    <tr>
+        <td>/login</td>
+    </tr>
+    <tr>
+        <td>/logout</td>
+    </tr>
+</table>
+
 ### Petición registro
 
 `POST /users`
