@@ -7,11 +7,11 @@ Este proyecto forma parte de una demo y ha sido desarrollado con Node.js, Expres
 Para el correcto funcionamiento de la aplicación es necesario tener Node.js instalado. 
 Se puede descargar desde su página oficial: https://nodejs.org/es/
 
-## Install
+## Instalación
 
     npm run install
 
-## Run the app
+## Ejecutar la app
 
     npm run start
 
