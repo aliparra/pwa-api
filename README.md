@@ -9,7 +9,7 @@ Se puede descargar desde su página oficial: https://nodejs.org/es/
 
 ## Instalación
 
-    npm run install
+    npm install
 
 ## Ejecutar la app
 
