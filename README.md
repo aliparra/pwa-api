@@ -10,17 +10,17 @@ Se puede descargar desde su página oficial: https://nodejs.org/es/
 ## Instalación
 
     npm install
-
-## Ejecutar la app
-
-    npm run start
-
-# Variables de entorno
+    
+## Variables de entorno
 
   Para el acceso a la base de datos remota es necesario contar con las variables de entorno que han sido facilitadas en el correo electrónico.
   En caso de no disponer de ellas pueden contactar conmigo desde mi página web: https://alicia.redparra.com/ o a través de mi linkedin:          https://www.linkedin.com/in/aliciaparra1/. 
   
   Crear un archivo .env en el directorio raíz de la aplicación con las variables.
+
+## Ejecutar la app
+
+    npm run start
 
 ## ENDPOINTS
 
